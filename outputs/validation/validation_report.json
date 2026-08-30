@@ -1,0 +1,80 @@
+{
+  "computed": {
+    "fraction_of_8250_years": {
+      "10Be_maximum": 0.1584242424242424,
+      "10Be_minimum": 0.27321212121212124,
+      "14C_maximum": 0.16327272727272726,
+      "14C_minimum": 0.28024242424242424
+    },
+    "grand_maxima": 21,
+    "grand_minima": 32,
+    "ks_p_values": {
+      "10Be": {
+        "power": {
+          "maximum_vs_moderate": 2.2206495155854796e-37,
+          "minimum_vs_maximum": 8.042385017699063e-52,
+          "minimum_vs_moderate": 8.352198166906446e-15
+        },
+        "variance": {
+          "maximum_vs_moderate": 6.519470392802564e-45,
+          "minimum_vs_maximum": 2.2653368258657055e-87,
+          "minimum_vs_moderate": 1.7255794507293335e-21
+        }
+      },
+      "14C": {
+        "power": {
+          "maximum_vs_moderate": 3.493001148671248e-05,
+          "minimum_vs_maximum": 7.2216234408006545e-84,
+          "minimum_vs_moderate": 5.87817288544183e-150
+        },
+        "variance": {
+          "maximum_vs_moderate": 4.5220906840461e-06,
+          "minimum_vs_maximum": 6.233519922878059e-71,
+          "minimum_vs_moderate": 2.0246754021012708e-117
+        }
+      }
+    },
+    "thresholds": {
+      "10Be": [
+        -0.9247801981995148,
+        1.3462929089250404
+      ],
+      "14C": [
+        -0.668664430229322,
+        1.4109597114997883
+      ]
+    }
+  },
+  "documented_numerical_differences": [
+    {
+      "calculated": 539,
+      "explanation": "The conventional likelihood calculation gives 539; the paper prints 540.",
+      "location": "Table 1, 14C one-Gaussian AIC",
+      "published": 540
+    },
+    {
+      "calculated": 385,
+      "explanation": "The input durations give 384.55, which rounds to 385; the paper prints 384.",
+      "location": "Table 5, grand-maximum lognormal BIC",
+      "published": 384
+    }
+  ],
+  "exact_checks": {
+    "aligned_smp_checksums": true,
+    "aligned_smp_shared_published_grid": true,
+    "all_ks_comparisons_significant_at_99_percent": true,
+    "all_published_grand_pairs_overlap": true,
+    "event_catalog_checksum": true,
+    "manual_catalog_has_160_pairs": true,
+    "manual_catalog_has_75_dips": true,
+    "manual_catalog_has_85_peaks": true,
+    "minimum_duration_is_inclusive_22": true,
+    "table2_all_32_rows_exact": true,
+    "table3_all_21_rows_exact": true,
+    "table4_rounds_exactly": true,
+    "thresholds_round_to_published": true,
+    "time_fraction_numerators_exact": true
+  },
+  "failures": [],
+  "status": "passed"
+}

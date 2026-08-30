@@ -1,0 +1,28 @@
+# Downloaded observations and uncommitted intermediate data
+/data/raw/**
+/data/processed/**
+
+# The two released study SMP inputs under /data/derived/ are intentionally tracked.
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.matplotlib-cache/
+
+# Editors, operating systems, and temporary files
+.DS_Store
+*.swp
+*.tmp
+*~
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,3 @@
+event_type,gaussian_bic,gaussian_aic,bimodal_gaussian_bic,bimodal_gaussian_aic,lognormal_bic,lognormal_aic
+Grand maxima,378,374,389,380,385,381
+Grand minima,656,652,651,640,639,635

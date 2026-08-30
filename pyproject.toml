@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools==75.8.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inceoglu-2015-grand-solar-events"
+version = "1.0.0"
+description = "Python reproduction of Inceoglu et al. (2015), A&A 577, A20"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = {file = "LICENSE"}
+authors = [{name = "Fadil Inceoglu"}]
+dependencies = [
+  "matplotlib==3.10.0",
+  "numpy==2.2.1",
+  "scipy==1.15.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.4"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

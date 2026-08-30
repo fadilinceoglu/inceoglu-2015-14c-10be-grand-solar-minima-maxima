@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this reproduction software, cite both this repository and the original article."
+title: "Python reproduction of Inceoglu et al. (2015): grand solar minima and maxima from 14C and 10Be"
+type: software
+version: 1.0.0
+date-released: 2026-08-29
+license: MIT
+repository-code: "https://github.com/fadilinceoglu/inceoglu-2015-14c-10be-grand-solar-minima-maxima"
+authors:
+  - family-names: Inceoglu
+    given-names: Fadil
+preferred-citation:
+  type: article
+  title: "Grand solar minima and maxima deduced from 10Be and 14C: magnetic dynamo configuration and polarity reversal"
+  authors:
+    - family-names: Inceoglu
+      given-names: Fadil
+    - family-names: Simoniello
+      given-names: Rosaria
+    - family-names: Knudsen
+      given-names: Mads Faurschou
+    - family-names: Karoff
+      given-names: Christoffer
+    - family-names: Olsen
+      given-names: Jesper
+    - family-names: Turck-Chièze
+      given-names: Sylvaine
+    - family-names: Jacobsen
+      given-names: Bo Holm
+  journal: "Astronomy & Astrophysics"
+  volume: "577"
+  issue: "A20"
+  year: 2015
+  doi: "10.1051/0004-6361/201424212"
+
